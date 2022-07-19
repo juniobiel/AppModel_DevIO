@@ -12,7 +12,7 @@ import { NavegacaoModule } from './navegacao/navegacao.module';
 @NgModule({
   declarations: [
     AppComponent,
-    SobreComponent
+    SobreComponent,
   ],
   imports: [
     BrowserModule,
