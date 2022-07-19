@@ -56,7 +56,11 @@ export class ProdutoDashboardComponent implements OnInit {
         valor: 600,
         imagem: 'headset.jpg'
       },
-    ]
+    ];
+  }
+
+  mudarStatus(event:Produto){
+    event.ativo = !event.ativo;
   }
 
 }
